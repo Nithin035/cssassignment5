@@ -1,0 +1,129 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;    
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: bhanu 4s infinite;
+}
+@keyframes bhanu {
+    0%{
+        transform: skewX(30deg);
+    }
+    100%{
+        transform: scaleX(0deg);
+    }
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;    
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    animation: bhanu1 4s infinite;
+}
+@keyframes bhanu1 {
+    0%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(0deg);
+    }
+}
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;    
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: lightskyblue;
+    animation: bhanu2 4s infinite;
+}
+@keyframes bhanu2 {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+
+
+div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 2rem;
+    gap: 30px;    
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    animation: bhanu3 4s infinite;
+}
+@keyframes bhanu3 {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 100px;
+        height: 50px;
+    }
+}
+
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: maroon;
+    animation: bhanu4 4s infinite;
+}
+@keyframes bhanu4 {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+        width: 30px;
+        height: 100px;
+    }
+}
+
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    animation: bhanu5 12s infinite ease-in;
+}
+@keyframes bhanu5 {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+

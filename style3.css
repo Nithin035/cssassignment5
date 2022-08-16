@@ -1,0 +1,100 @@
+body{
+    background-color: orange solid 10x;
+}
+.city{
+    width: 100vw;
+    height: 500px;
+    position: relative;
+    bottom: 275px;
+    opacity: 100%;
+    
+    background-repeat: repeat-x;
+    animation: img1 12s linear infinite normal none;
+    
+}
+@keyframes img1 {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+
+}
+.sun{
+    position: absolute;
+    bottom: 500px;
+    right: 100px;
+    
+}
+.flag{
+    position: absolute;
+    bottom: 250px;
+    right: 670px;
+}
+
+
+.road{
+    position: relative;
+    bottom: 505px;
+    background-repeat: repeat-x;
+    animation: img11 linear 4s infinite normal;
+}
+@keyframes img11 {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+
+}
+
+.car{
+    position: relative;
+    bottom: 850px;
+    left: 470px;
+}
+.wheel1{
+    position: relative;
+    right: 110px;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
+
+
+.wheel2{
+    position: relative;
+    right: 393px;
+    animation: rotate 1s infinite linear;
+}
+@keyframes rotate {
+    from{
+     transform: rotate(0deg);
+    }
+    to{
+     transform: rotate(360deg);
+    }
+ }
+.head{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+}
+.name1{
+    background-color: orange;
+    font-size: 40px;
+}
+.name2{
+    background-color: white;
+}
+.name3{
+    background-color: green;
+}

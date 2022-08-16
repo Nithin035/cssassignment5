@@ -1,0 +1,70 @@
+html{
+    background-color: yellow;
+}
+.flex1{
+    background-color: yellow;
+    display: flex;
+    padding: 2rem;
+    flex-flow: column wrap;
+    gap: 15px;
+    
+    align-content: center;
+}
+span:nth-child(2){
+    display: inline-block;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.curr1{
+    transition: 4s linear;
+}
+.curr1:hover{
+    width: 400px;
+}
+
+.curr2{
+    transition: 4s linear;
+}
+.curr2:hover{
+    width: 250px;
+    height: 300px;
+}
+
+.curr3{
+    transition: 4s linear;
+}
+.curr3:hover{
+    width: 400px;
+}
+
+.curr4{
+    transition: 4s linear;
+}
+.curr4:hover{
+    width: 400px;
+}
+
+.curr5{
+    transition: 4s linear;
+}
+.curr5:hover{
+    width: 400px;
+}
+
+.curr6{
+    transition: 4s linear;
+}
+.curr6:hover{
+    width: 400px;
+}
+
+.curr7{
+    transition: 4s linear;
+}
+.curr7:hover{
+    width: 400px;
+}
+
+
+
